@@ -1,0 +1,31 @@
+﻿
+digraph summary{
+	start [label="Start with\n a Node"];
+	next [label="Choose your shape", shape=box];
+	
+	warning [label="Don't go overboard", color=Blue, fontcolor=Red,fontsize=24,style=filled, fillcolor=green];
+	end [label="Draw your graph!", shape=box, style=filled, fillcolor=yellow];
+
+	// This is a single line comment.
+	/* This is a
+	   multiple line
+	   comment. */
+	# Lines like this are also ignored.
+
+	start -> next; 
+    warning -> end; 
+
+	a [label="Alhamdulillah"];
+	b [label="Bismillah", shape=box, style=filled fillcolor = yellow];
+
+	a -> b [color=blue];
+	b -> next;
+
+	node [shape=plaintext];
+		A1 -> B1;
+		A2 -> B2;
+		A3 -> B3;
+
+
+
+}
