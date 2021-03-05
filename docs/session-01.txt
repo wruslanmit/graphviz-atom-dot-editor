@@ -1,0 +1,58 @@
+
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ git add .
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ git commit -m "initial commit"
+[main 2539b05] initial commit
+ 20 files changed, 379 insertions(+)
+ create mode 100644 docs/Drawing Graphs using Dot and Graphviz.pdf
+ create mode 100644 docs/GraphViz Examples and Tutorial.pdf
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-05 22-24-12.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-01-42.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-08-07.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-24-59.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-36-59.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-37-19.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-38-14.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-38-54.png
+ create mode 100644 docs/screenshots-01/Screenshot from 2021-03-06 00-41-51.png
+ create mode 100644 session-2020-03-06-01-introduction/summary-01.dot
+ create mode 100644 session-2020-03-06-01-introduction/summary-01.gv
+ create mode 100644 session-2020-03-06-01-introduction/summary-01.png
+ create mode 100644 session-2020-03-06-01-introduction/summary-01.svg
+ create mode 100644 session-2020-03-06-01-introduction/summary.dot
+ create mode 100644 session-2020-03-06-01-introduction/summary.gv
+ create mode 100644 session-2020-03-06-01-introduction/summary.png
+ create mode 100644 session-2020-03-06-01-introduction/summary.svg
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ tree ./
+./
+├── docs
+│   ├── Drawing Graphs using Dot and Graphviz.pdf
+│   ├── GraphViz Examples and Tutorial.pdf
+│   └── screenshots-01
+│       ├── Screenshot from 2021-03-05 22-24-12.png
+│       ├── Screenshot from 2021-03-06 00-01-42.png
+│       ├── Screenshot from 2021-03-06 00-08-07.png
+│       ├── Screenshot from 2021-03-06 00-24-59.png
+│       ├── Screenshot from 2021-03-06 00-36-59.png
+│       ├── Screenshot from 2021-03-06 00-37-19.png
+│       ├── Screenshot from 2021-03-06 00-38-14.png
+│       ├── Screenshot from 2021-03-06 00-38-54.png
+│       └── Screenshot from 2021-03-06 00-41-51.png
+├── README.md
+├── session-2020-03-06-01-introduction
+│   ├── summary-01.dot
+│   ├── summary-01.gv
+│   ├── summary-01.png
+│   ├── summary-01.svg
+│   ├── summary.dot
+│   ├── summary.gv
+│   ├── summary.png
+│   └── summary.svg
+└── session-2020-03-07-01-flowcharts
+
+4 directories, 20 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ 
+
+
