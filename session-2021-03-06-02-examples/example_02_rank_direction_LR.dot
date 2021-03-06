@@ -1,0 +1,11 @@
+// Sat 06 Mar 2021 09:25:19 AM +08
+// Rank direction for nodes are top to bottom (TB) by default
+
+graph example_02_rank_direction {
+  rankdir=LR; // Rank direction is changed to left to right
+
+  a -- b;
+  b -- c;
+  b -- d;
+  d -- e;
+}

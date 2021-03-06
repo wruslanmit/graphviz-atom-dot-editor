@@ -1,0 +1,27 @@
+digraph example_05_structs_LR {
+
+  // REF: http://www.graphviz.org/doc/info/shapes.html
+
+  // Global settings. Records have fields <f0>, <f1> and so on
+  rankdir=LR;
+  node[shape=record]
+  edge[color=darkgreen];
+
+  // Node definitions
+  // ======================================================
+  struct1 [label="<f0> left_f0 | <f1> the\nmiddle | <f3> mencelah | <f2> RIGHT",
+           color=red, fontsize=10];
+
+  // Shape changed to Mrecord (rounded box)
+  struct2 [label="{<f0> one|<f1> two\n\n\n}" shape=Mrecord];
+
+  struct3 [label="complex\nrecord | { b | {c|<here> d|e}| f}| g | h"];
+  struct3 [style=filled, fillcolor=yellow]
+
+  // Edge definitions
+  // ======================================================
+  struct1:f1 -> struct2:f0 [label="line 2", fontsize=10, color=blue];
+  struct1:f0 -> struct3:f1 [label="line 1"];
+  struct1:f2 -> struct2:f1 [label="line 3"];
+
+}

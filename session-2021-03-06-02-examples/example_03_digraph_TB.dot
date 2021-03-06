@@ -1,0 +1,26 @@
+// Sat 06 Mar 2021 09:25:19 AM +08
+
+// n1 and n2 are nodes (default shape=oval)
+// n1 -- n2 is an edge (default color=black)
+// n1 -> n2 is a directed edge
+// [ ... ] = attribute of nodes or edges
+
+digraph example_03_digraph_TB {
+  rankdir = TB; // Change to Left to Right
+
+  a [label="Start", color=blue, fontcolor=Red, fontsize=18,
+     shape=box, style=filled, fillcolor=yellow];
+  e [label="End", style=filled, fillcolor=green];
+
+  a -> b;  // Now use right arrow (->) for directed edge
+  b -> c;
+  b -> d;
+  d -> e;
+
+  // b -- e;  // Not allowed: Cannot mix -- with ->
+  b -> e [label="here we go ...", color=blue];
+  d -> a;
+  e -> b [label="here we return...", color=green];  // backwards
+  c -> c [color=red];  // onto itself
+
+}

@@ -1,0 +1,42 @@
+ELEMENTS IN DOT GRAPHVIZ
+
+(1) Clusters 
+(2) Nodes
+(3) Edges
+
+A cluster is a group of nodes forming a sub-graph. 
+Clusters are encoded as subgraphs whose names have the prefix 'cluster'. 
+
+A graph consists of nodes and edges. 
+The links between nodes are non-directional using lines.
+
+A directed graph also consists of nodes and edges. 
+The links between nodes are directional using arrows (arrowhead, arrowtail).
+
+===========================================================
+DOT ATTRIBUTES
+https://www.graphviz.org/doc/info/attrs.html
+
+NODE SHAPES
+http://www.graphviz.org/doc/info/shapes.html
+
+COLORS Valid for: Clusters, Edges, Nodes.
+https://www.graphviz.org/doc/info/attrs.html#d:color
+
+EDGE ARROWTYPES
+https://www.graphviz.org/doc/info/attrs.html#k:arrowType
+
+The basic arrows shown above contain:
+
+    most of the primitive shapes (box, crow, diamond, dot, inv, none, normal, tee, vee)
+    shapes that can be derived from the grammar (odot, invdot, invodot, obox, odiamond)
+    shapes supported as special cases for backward-compatibility (ediamond, open, halfopen, empty, invempty).
+
+EDGE ARROWHEAD, ARROWTAIL, ARROW SIZE
+https://www.graphviz.org/doc/info/attrs.html#d:arrowhead
+
+CLUSTERS
+https://www.graphviz.org/Gallery/directed/cluster.html
+
+===========================================================
+

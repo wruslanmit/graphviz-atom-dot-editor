@@ -1,0 +1,10 @@
+// Sat 06 Mar 2021 09:25:19 AM +08
+
+graph example_01_rank_direction {
+  rankdir = TB; // Default nodes are top to bottom 
+
+  a -- b;
+  b -- c;
+  b -- d;
+  d -- e;
+}

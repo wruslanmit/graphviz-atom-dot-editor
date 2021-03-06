@@ -1,0 +1,52 @@
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ ls -al
+total 32
+drwxrwxr-x 7 wruslan wruslan 4096 Mar  6 12:51 .
+drwxrwxr-x 8 wruslan wruslan 4096 Mar  6 02:04 ..
+drwxrwxr-x 3 wruslan wruslan 4096 Mar  6 12:41 docs
+drwxrwxr-x 8 wruslan wruslan 4096 Mar  6 12:49 .git
+-rw-rw-r-- 1 wruslan wruslan  930 Mar  6 01:24 README.md
+drwxrwxr-x 2 wruslan wruslan 4096 Mar  6 01:13 session-2021-03-06-01-introduction
+drwxr-xr-x 2 wruslan wruslan 4096 Mar  6 12:24 session-2021-03-06-02-examples
+drwxrwxr-x 2 wruslan wruslan 4096 Mar  6 00:58 session-2021-03-07-01-flowcharts
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ tree ./
+./
+├── docs
+│   ├── Drawing Graphs using Dot and Graphviz.pdf
+│   ├── GraphViz Examples and Tutorial.pdf
+│   ├── references-01.txt
+│   ├── screenshots-01
+│   │   ├── Screenshot from 2021-03-05 22-24-12.png
+│   │   ├── Screenshot from 2021-03-06 00-01-42.png
+│   │   ├── Screenshot from 2021-03-06 00-08-07.png
+│   │   ├── Screenshot from 2021-03-06 00-24-59.png
+│   │   ├── Screenshot from 2021-03-06 00-36-59.png
+│   │   ├── Screenshot from 2021-03-06 00-37-19.png
+│   │   ├── Screenshot from 2021-03-06 00-38-14.png
+│   │   ├── Screenshot from 2021-03-06 00-38-54.png
+│   │   └── Screenshot from 2021-03-06 00-41-51.png
+│   └── session-01.txt
+├── README.md
+├── session-2021-03-06-01-introduction
+│   ├── summary-01.dot
+│   ├── summary-01.gv
+│   ├── summary-01.png
+│   ├── summary-01.svg
+│   ├── summary.dot
+│   ├── summary.gv
+│   ├── summary.png
+│   └── summary.svg
+├── session-2021-03-06-02-examples
+│   ├── example_01_rank_direction_TB.dot
+│   ├── example_02_rank_direction_LR.dot
+│   ├── example_03_digraph_LR.dot
+│   ├── example_03_digraph_TB.dot
+│   ├── example_04_hierarchy_LR.dot
+│   ├── example_04_hierarchy_TB.dot
+│   ├── example_05_structs_LR.dot
+│   └── example_05_structs_TB.dot
+└── session-2021-03-07-01-flowcharts
+
+5 directories, 30 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/graphviz-atom-dot-editor$ 
+
+

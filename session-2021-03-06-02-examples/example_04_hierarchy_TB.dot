@@ -1,0 +1,40 @@
+digraph example_04_hierarchy_TB {
+
+  // ====================================================
+  // Settings digraph-wide (globally)
+  // ====================================================
+  // (1) Set orientation to Top-to-Bottom
+  rankdir= TB;
+
+  // (2) Set separation between nodes
+	nodesep=1.0;
+
+	// (3) Set all nodes globally with these attributes
+	node [color=Red, fontname=Courier, shape=box];
+
+	// (4) Set all edges globally with these attributes
+	edge [color=Blue, style=line];
+
+	// ====================================================
+	// Define the nodes and its connections on-the-fly
+  // Use underscore and not hyphen for node names
+  // Use string double quotes for node names with spaces
+  // Can label edges on the fly
+	// ====================================================
+	Headteacher -> {Deputy2, Business_Manager};
+
+  // Overrides global edge settings
+  Headteacher -> Deputy1 [label="Seniority 1", color=Green];
+
+	Deputy1 -> {Teacher1, Teacher2, Teacher3};
+
+  // Overrides global node settings
+  Teacher1 [shape=oval, style=filled, fillcolor=yellow];
+
+	Business_Manager -> "ITManager No. 1" [label="Seniority 2", color=Red];
+
+	// Set specified nodes on the same level
+	// ====================================================
+	{rank=same; "ITManager No. 1", Teacher1, Teacher2, Teacher3};
+
+}
