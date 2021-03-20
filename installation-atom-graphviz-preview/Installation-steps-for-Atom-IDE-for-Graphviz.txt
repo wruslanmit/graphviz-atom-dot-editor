@@ -1,0 +1,52 @@
+wruslan@hp-elitebook-ub1804-rt64:~/opt$ date
+Sat Mar 20 18:53:18 +08 2021
+
+DOWNLOAD THE ATOM IDE DEB FILE. GO TO https://atom.io/
+===========================================================
+125,393,714 bytes for file atom-amd64.deb
+
+INSTALL THE ATOM IDE
+===========================================================
+wruslan@hp-elitebook-ub1804-rt64:~/opt$ sudo dpkg -i atom-amd64.deb 
+[sudo] password for wruslan: 
+Selecting previously unselected package atom.
+(Reading database ... 680720 files and directories currently installed.)
+Preparing to unpack atom-amd64.deb ...
+Unpacking atom (1.55.0) ...
+Setting up atom (1.55.0) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+wruslan@hp-elitebook-ub1804-rt64:~/opt$ 
+
+===========================================================
+wruslan@hp-elitebook-ub1804-rt64:~/opt$ which atom
+/usr/bin/atom
+wruslan@hp-elitebook-ub1804-rt64:~/opt$ 
+
+wruslan@hp-elitebook-ub1804-rt64:~/opt$ atom
+... <Atom IDE GUI opens> ...
+
+See the accompanying screenshots.
+
+Step (1) Open the Atom IDE icon
+Step (2) Install a package. Click Open installer button.
+Step (3) Search and install the 4 packages below:
+
+(3.1) language-dot-template (ver 0.2.0 chrisyip)
+(3.2) language-dot (ver 1.7.0 AdoPi) 
+(3.3) graphviz-preview-plus (ver 1.5.13 sverweij)
+(3.4) graphviz-preview (ver 1.7.0 jumpkick)
+
+Step (4) Open a folder and write dot files inside the folder.
+Step (5) Save the file. Then use Menu -> Packages. Scroll down.
+Step (6) Select GrapViz preview+ -> Select layout engine -> neato.
+Step (7) Again select GrapViz preview+ -> Toggle preview.
+
+Wait a while. It is a little slow for first time display of the dot diagram.
+But it works for sure. 
+
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+
